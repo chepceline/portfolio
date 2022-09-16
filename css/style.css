@@ -65,7 +65,7 @@ ul{
 {
     color: var(--text-black-900);
     font-weight: 200;
-    background: red;
+    
     padding: 15px 20px;
     font-size: 30px;
     letter-spacing: 5px;
@@ -76,4 +76,28 @@ ul{
     font-family: 'Clicker Script' cursive ;
     font-family: 40px; ;
 
+}
+.aside .logo a::before
+{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-bottom: 5px solid var(--skin-color);
+    border-left: 5px solid var(--skin-color);
+    bottom: 0;
+    left: 0;
+     
+}
+.aside .logo a::after
+{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-bottom: 5px solid var(--skin-color);
+    border-left: 5px solid var(--skin-color);
+    top: 0;
+    right: 0;
+     
 }
