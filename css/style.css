@@ -90,7 +90,16 @@ ul{
     left: 0;
      
 }
+.aside .nav-toggler
+{
+    height: 40px;
+    width: 45px;
+    border: 1px solid var(--bg-black-500);
+    cursor: pointer;
+    position: fixed;
+}
 .aside .logo a::after
+
 {
     content: '';
     position: absolute;
