@@ -208,27 +208,26 @@ ul{
     max-width: 60%;
     
 }
-.h3.hello
+h3.hello
 {
     font-size: 28px;
     margin: 15px;
 }
-.h3.hello-span
+h3.hello span
 {
-    font-family: 'Clicker Script', cursive;
+    font-family: 'Clicker Script' , cursive;
     font-size: 30px;
     font-weight: 700;
     color: var(--skin-color);
 }
 .home .home-img
 {
-  flex: 0 0 40%;  
+  flex: 0 0 40%; 
+  max-width: 40%;
+  text-align: center;
+  position: relative;  
 }
 .home .home-img img
 {
-    height: 400px;
-    max-width: 40%;
-    background:red;
-    text-align: center;
-    position: relative;
+    height: 400px;    
 }
