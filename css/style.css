@@ -524,3 +524,10 @@ h3.my-profession
     text-transform: capitalize;
     color: var(--tet-black-900);
 }
+.about .about-content .timeline .timeline-text
+{
+    line-height: 25px;
+    font-size: 16px;
+    text-align: justify;
+    color: var(--tet-black-700);
+}
