@@ -531,3 +531,8 @@ h3.my-profession
     text-align: justify;
     color: var(--tet-black-700);
 }
+/* service */
+.service .service-item
+{
+    margin-bottom: 30px;
+}
