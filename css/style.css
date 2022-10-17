@@ -536,3 +536,15 @@ h3.my-profession
 {
     margin-bottom: 30px;
 }
+/* service */
+.service .service-item
+{
+    margin-bottom: 30px;
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+}
+.service .service-item-inner
+{
+    background-color: var(--bg-black-100);
+    border: 1px solid var(--bg-black-50);
+}
