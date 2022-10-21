@@ -560,4 +560,8 @@ h3.my-profession
 .service .service-item .service-item-inner .main-content
 {
     height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 30px;
 }
