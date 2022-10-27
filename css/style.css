@@ -598,6 +598,10 @@ h3.my-profession
     line-height: 25px;
 }
 /* portfolio */
+.portfolio .container
+{
+    padding-bottom: 40px;
+}
 .portfolio .portfolio-heading
 {
     flex: 0 0 100%;
@@ -607,4 +611,10 @@ h3.my-profession
 {
     color: var(--text-black-900);
     font-weight: 500;
+}
+.portfolio .portfolio-item
+{
+   flex: 0 0 33.33%; 
+   max-width: 33.33%;
+   margin-bottom: 30px;
 }
