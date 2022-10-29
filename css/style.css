@@ -606,6 +606,7 @@ h3.my-profession
 {
     flex: 0 0 100%;
     max-width: 100%;
+    margin-bottom: 40px;
 }
 .portfolio .portfolio-heading h2
 {
@@ -624,3 +625,16 @@ h3.my-profession
     max-width: 33.33%;
     margin-bottom: 30px;
 }
+.portfolio .portfolio-item-inner
+{
+    border: 6px solid var(--bg-black-100);
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.portfolio .portfolio-item-inner .portfolio-img img
+{
+    width: 100%;
+    display: block;
+}
+ 
