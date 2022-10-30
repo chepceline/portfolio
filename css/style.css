@@ -623,7 +623,7 @@ h3.my-profession
 {
     flex: 0 0 33.33%;
     max-width: 33.33%;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 .portfolio .portfolio-item-inner
 {
@@ -637,4 +637,24 @@ h3.my-profession
     width: 100%;
     display: block;
 }
- 
+/* Contact */
+.contact-title
+{
+    color: var(--skin-color);
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.contact-sub-title
+{
+    color: var(--text-black-900);
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 60px;
+}
+.contact .contact-info-item
+{
+    flex: 0 0 25%;
+    max-width: 25%;
+    text-align: center;
+}
